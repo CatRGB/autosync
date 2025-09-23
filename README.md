@@ -74,12 +74,12 @@ sudo tee /etc/autosync.env >/dev/null <<'EOF'
 DATA_DIR=/srv/autosync/data
 UPLOADS_DIR=/srv/autosync/uploads
 JWT_SECRET=change-me-please
-```
+
 # Optional personal access tokens (comma separated)
-```bash
+
 PAT_TOKENS=mypat1,mypat2
 FIXED_PAT=Drive-Sync
-```
+
 # Go caches outside the project
 ```bash
 GOPATH=/var/lib/autosync/gopath
